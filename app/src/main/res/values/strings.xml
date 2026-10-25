@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ultra Hertz</string>
+    <string name="accessibility_description">Detecta qual app está aberto para aplicar a taxa de atualização escolhida para ele. Nenhum conteúdo da tela é lido.</string>
+</resources>
