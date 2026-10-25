@@ -4,6 +4,8 @@ Controle de taxa de atualização para celulares Samsung Galaxy: modos **Padrão
 com faixa de Hz configurável (inclusive abaixo do mínimo que o sistema oferece), regras por situação
 e por app, e alguns extras.
 
+Algum dia desses eu vou explicar como faz para instalar porem quem souber fazer, pode fazer
+
 > **Status:** projeto experimental, escrito sem acesso a um compilador no ambiente de desenvolvimento
 > inicial. Pode ter bugs. Testado só em aparelhos do autor. Use por sua conta e risco.
 >
