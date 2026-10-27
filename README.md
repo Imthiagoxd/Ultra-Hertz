@@ -112,9 +112,24 @@ CMD:
 "%LOCALAPPDATA%\Android\Sdk\platform-tools\adb.exe" shell pm grant com.devthiago.ultrahertz android.permission.WRITE_SECURE_SETTINGS
 ```
 
+> **Atenção:** a permissão é perdida sempre que o app for **reinstalado ou atualizado**. Repita o Passo 5.
+
+### Passo 6 (importante): deixar a bateria em "Sem restrições"
+
+Sem isso, o Android pode **encerrar o Ultra Hertz em segundo plano** para economizar bateria. Quando isso
+acontece, a taxa de atualização para de ser mantida: a economia de energia, as regras por app e a tela
+desligada deixam de funcionar até você abrir o app de novo.
+
+1. Abra *Configurações > Apps* e toque em **Ultra Hertz**.
+2. Toque em **Bateria**.
+3. Escolha **Sem restrições** (em alguns celulares aparece como "Não otimizar" ou "Irrestrito").
+4. Se existir a opção **Dormir apps não usados** (ou "Colocar apps não usados em suspensão"), desligue
+   para o Ultra Hertz.
+
+Se mesmo assim ele for encerrado, procure em *Configurações > Bateria > Limites de uso em segundo plano* e
+tire o Ultra Hertz de "Apps dormindo" e "Apps em suspensão profunda".
 Pronto: abra o **Ultra Hertz** no celular. Se aparecer "Falta uma permissão", repita o Passo 5.
 
-> **Atenção:** a permissão é perdida sempre que o app for **reinstalado ou atualizado**. Repita o Passo 5.
 
 ### Depois de instalar
 - **Taxa por app:** na aba Apps, ative o serviço de acessibilidade.
